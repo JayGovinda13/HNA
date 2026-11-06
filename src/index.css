@@ -1,0 +1,6 @@
+html { scroll-behavior: smooth; }
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+::selection { background: #D4AF37; color: #121212; }
+@keyframes hna-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes hna-float { 0%,100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-14px) rotate(-2deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; scroll-behavior: auto !important; } }
